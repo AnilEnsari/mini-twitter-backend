@@ -1,6 +1,7 @@
 package com.example.twitter.service;
 
 import com.example.twitter.entity.Tweet;
+import com.example.twitter.entity.User;
 
 import java.util.List;
 
@@ -15,4 +16,6 @@ public interface TweetService {
     Tweet deleteTweet(int id);
 
     List<Tweet> findTweetByUserId(int id);
+
+
 }

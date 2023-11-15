@@ -1,4 +1,4 @@
-package com.example.twitter.service;
+package com.example.twitter.service ;
 
 import com.example.twitter.entity.Tweet;
 import com.example.twitter.entity.User;
@@ -70,6 +70,7 @@ public class TweetServiceImpl implements TweetService{
         }
         throw new TwitterException("id si verilen kullanıcı tweeti yoktur. " , HttpStatus.NOT_FOUND);
     }
+
 
 
 }

@@ -1,6 +1,5 @@
 package com.example.twitter.repository;
 
-
 import com.example.twitter.entity.Tweet;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
@@ -16,6 +15,6 @@ public interface TweetRepository extends JpaRepository<Tweet,Integer> {
 
     @Query("SELECT t FROM Tweet t ORDER BY t.id DESC")
     public List<Tweet> findAllTweetsByFollowing(int id);
+
+
 }
-
-

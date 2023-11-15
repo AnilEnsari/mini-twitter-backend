@@ -4,8 +4,26 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="aaa2fae2-fa2f-4826-a355-2a27e662bc76" name="Changes" comment="controller edit">
+    <list default="true" id="aaa2fae2-fa2f-4826-a355-2a27e662bc76" name="Changes" comment="controller fixed">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/twitter/dto/LoggedinUserDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/twitter/controller/UserControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/twitter/dao/TweetDaoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/twitter/service/TweetServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/twitter/controller/TweetController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/twitter/controller/TweetController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/twitter/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/twitter/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/twitter/dto/LoginUserDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/twitter/dto/TweetResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/twitter/dto/TweetResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/twitter/entity/Follow.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/twitter/entity/Tweet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/twitter/entity/Tweet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/twitter/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/twitter/entity/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/twitter/exceptions/GlobalExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/twitter/exceptions/GlobalExceptionHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/twitter/repository/TweetRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/twitter/repository/TweetRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/twitter/service/AuthenticationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/twitter/service/AuthenticationService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/twitter/service/TweetService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/twitter/service/TweetService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/twitter/service/TweetServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/twitter/service/TweetServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/twitter/utils/Converter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/twitter/utils/Converter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -42,14 +60,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/mini-twitter-x-backend&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/mini-twitter-x-backend"
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration default="true" type="JetRunConfigurationType">
       <module name="mini-twitter-x-backend" />
@@ -98,13 +116,22 @@
       <option name="project" value="LOCAL" />
       <updated>1699883709634</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="controller fixed">
+      <option name="closed" value="true" />
+      <created>1699883736047</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1699883736047</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="followtodo" />
     <MESSAGE value="*** added" />
     <MESSAGE value="controller edit" />
-    <option name="LAST_COMMIT_MESSAGE" value="controller edit" />
+    <MESSAGE value="controller fixed" />
+    <option name="LAST_COMMIT_MESSAGE" value="controller fixed" />
   </component>
 </project>

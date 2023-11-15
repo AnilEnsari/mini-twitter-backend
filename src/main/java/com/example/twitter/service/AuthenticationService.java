@@ -1,16 +1,14 @@
 package com.example.twitter.service;
 
-import com.example.twitter.dto.LoginUserDto;
+import com.example.twitter.dto.LoggedinUserDto;
 import com.example.twitter.entity.User;
 import com.example.twitter.exceptions.TwitterException;
 import com.example.twitter.repository.UserRepository;
-import com.example.twitter.utils.Converter;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 
-import java.time.LocalDate;
 import java.util.Optional;
 
 @Service
@@ -42,7 +40,7 @@ public class AuthenticationService {
         return user1;
     };
 
-    public User login(LoginUserDto loginUserDto){
+    public User login(LoggedinUserDto loginUserDto){
         Optional<User> optionalUser = userRepository.findUserByEmail(loginUserDto.email());
         if(optionalUser.isPresent()){
             User user = optionalUser.get();
