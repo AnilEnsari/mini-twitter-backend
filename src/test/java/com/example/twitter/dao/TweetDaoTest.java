@@ -25,10 +25,7 @@ public class TweetDaoTest {
         LocalDate futureDate = LocalDate.now().plusDays(1);
         createTweet("futureTweet", futureDate, new ArrayList<>(), new ArrayList<>(), new ArrayList<>(), 6);
     }
-    @AfterEach
-    void tearDown() {
-        tweetRepository.deleteAll();
-    }
+
     @Test
     void foundAllTweetsByFollowing() {
         List<Tweet> tweetList = tweetRepository.findAllTweetsByFollowing(6);
