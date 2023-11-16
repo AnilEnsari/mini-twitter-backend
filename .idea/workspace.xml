@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="aaa2fae2-fa2f-4826-a355-2a27e662bc76" name="Changes" comment="new features added controller todo token upcoming">
+    <list default="true" id="aaa2fae2-fa2f-4826-a355-2a27e662bc76" name="Changes" comment="bugs fixed">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/twitter/dao/TweetDaoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/twitter/dao/TweetDaoTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -115,7 +114,15 @@
       <option name="project" value="LOCAL" />
       <updated>1700090236488</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="bugs fixed">
+      <option name="closed" value="true" />
+      <created>1700131517148</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1700131517148</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -124,6 +131,7 @@
     <MESSAGE value="controller edit" />
     <MESSAGE value="controller fixed" />
     <MESSAGE value="new features added controller todo token upcoming" />
-    <option name="LAST_COMMIT_MESSAGE" value="new features added controller todo token upcoming" />
+    <MESSAGE value="bugs fixed" />
+    <option name="LAST_COMMIT_MESSAGE" value="bugs fixed" />
   </component>
 </project>
