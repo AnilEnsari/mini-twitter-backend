@@ -6,6 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="aaa2fae2-fa2f-4826-a355-2a27e662bc76" name="Changes" comment="bugs fixed">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/twitter/controller/TweetController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/twitter/controller/TweetController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/twitter/service/TweetServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/twitter/service/TweetServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />

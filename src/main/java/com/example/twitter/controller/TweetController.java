@@ -104,7 +104,7 @@ public class TweetController {
 
 
     @PostMapping("/dislike/{id}")
-    public TweetResponse deleteTweet(@Positive @PathVariable int id , @RequestBody User user){
+    public TweetResponse dislike(@Positive @PathVariable int id , @RequestBody User user){
         Tweet tweet = tweetService.findTweetById(id);
         User user1 = userService.findByUserId(user.getId());
         tweet.removeLikedByUserList(user1.getId());

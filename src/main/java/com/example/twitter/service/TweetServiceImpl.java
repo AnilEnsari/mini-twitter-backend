@@ -55,10 +55,17 @@ public class TweetServiceImpl implements TweetService{
     }
 
     @Override
-    public Tweet deleteTweet(int id) {
+    public Tweet deleteTweet(int id,User user) {
+
+
         Tweet tweet = findTweetById(id);
+        if(user.getId()==tweet.getUser().getId()){
         tweetRepository.delete(tweet);
         return tweet;
+        }
+        else{
+            throw new TwitterException("You cant delete the tweet you didnt send",HttpStatus.BAD_REQUEST);
+        }
     }
 
     @Override
